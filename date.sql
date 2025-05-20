@@ -1,1 +1,3 @@
-show timezone;
+--show timezone;
+
+SELECT now()
