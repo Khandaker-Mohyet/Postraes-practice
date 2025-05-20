@@ -16,3 +16,12 @@ SELECT CURRENT_DATE;
 SELECT now()::date;
 
 SELECT now()::time;
+
+SELECT to_char(now(), 'ddd')
+
+
+SELECT CURRENT_DATE - INTERVAL '1 year 2 month'
+
+select age(CURRENT_DATE, '1998-11-20')
+
+SELECT age(CURRENT_DATE, '2004-06-19')
