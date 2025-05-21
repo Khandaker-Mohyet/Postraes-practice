@@ -91,3 +91,16 @@ SELECT max(length(first_name)) FROM students;
  COUNT() Counts the number of rows in a set.
 
 */
+
+SELECT * FROM students
+WHERE NOT country = 'USA';
+
+
+SELECT * FROM students
+WHERE email IS NULL;
+SELECT * FROM students
+WHERE email IS NOT NULL;
+
+SELECT COALESCE(NULL,2);
+
+SELECT COALESCE(email,'email not found') FROM students;
