@@ -60,6 +60,9 @@ INSERT INTO employees (employee_name, department_id, salary, hire_date) VALUES
     ('Nathan Rivera', 9, 74000.50, '2020-07-15'),
     ('Mia Roberts', 10, 70000.25, '2021-11-20');
 
-    SELECT * FROM employees
+DROP TABLE employees;
+DROP TABLE departments;
 
-    SELECT * FROM departments 
+SELECT * FROM employees
+
+SELECT * FROM departments 

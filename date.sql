@@ -1,4 +1,4 @@
--- Active: 1747418280166@@localhost@5432@postgres
+-- Active: 1747418280166@@localhost@5432@ph
 --show timezone;
 
 SELECT now()
