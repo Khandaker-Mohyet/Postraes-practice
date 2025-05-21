@@ -104,3 +104,16 @@ WHERE email IS NOT NULL;
 SELECT COALESCE(NULL,2);
 
 SELECT COALESCE(email,'email not found') FROM students;
+
+SELECT * FROM students
+WHERE country IN ('USA', 'UK');
+
+SELECT * FROM students
+WHERE country NOT IN ('USA', 'UK');
+
+SELECT * FROM students
+WHERE age BETWEEN 19 AND 20 ORDER BY age DESC;
+
+SELECT * FROM students
+WHERE first_name LIKE 'A%'
+
