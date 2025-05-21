@@ -34,3 +34,16 @@ SELECT title, username FROM post
 JOIN "user" on post.user_id = "user".id
 
 -- inner join
+
+
+INSERT INTO post (id,title, user_id) VALUES
+(5,'This is new user Id', NULL);
+
+
+SELECT * FROM post as p
+LEFT JOIN "user" u on p.user_id = u.id;
+
+-- left join
+
+SELECT * FROM post as p
+RIGHT JOIN "user" u on p.user_id = u.id;
