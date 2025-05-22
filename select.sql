@@ -120,3 +120,16 @@ WHERE first_name LIKE 'A%';
 SELECT * FROM students
 WHERE first_name LIKE '___a';
 
+SELECT * FROM students LIMIT 5;
+
+SELECT * FROM students LIMIT 5 OFFSET 5;
+
+SELECT * FROM students
+WHERE country IN('UK', 'USA') LIMIT 5;
+
+-- pazination
+
+SELECT * FROM students LIMIT 5 OFFSET 5*0;
+SELECT * FROM students LIMIT 5 OFFSET 5*1;
+SELECT * FROM students LIMIT 5 OFFSET 5*2;
+
