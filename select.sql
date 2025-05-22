@@ -115,5 +115,8 @@ SELECT * FROM students
 WHERE age BETWEEN 19 AND 20 ORDER BY age DESC;
 
 SELECT * FROM students
-WHERE first_name LIKE 'A%'
+WHERE first_name LIKE 'A%';
+
+SELECT * FROM students
+WHERE first_name LIKE '___a';
 
